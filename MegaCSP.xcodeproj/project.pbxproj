@@ -17,6 +17,8 @@
 		A6A4AB5C21DFF92A00F55B5E /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A4AB5A21DFF92A00F55B5E /* DataViewController.swift */; };
 		A6A4AB5E21DFF93700F55B5E /* AbstractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A4AB5D21DFF93700F55B5E /* AbstractionViewController.swift */; };
 		A6A4AB6021DFF94A00F55B5E /* AlgorithmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A4AB5F21DFF94A00F55B5E /* AlgorithmViewController.swift */; };
+		A6A4AB6321DFFAA000F55B5E /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A4AB6121DFFA9D00F55B5E /* ArtCell.swift */; };
+		A6A4AB6421DFFAA000F55B5E /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A4AB6221DFFA9F00F55B5E /* DrawingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		A6A4AB5A21DFF92A00F55B5E /* DataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 		A6A4AB5D21DFF93700F55B5E /* AbstractionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractionViewController.swift; sourceTree = "<group>"; };
 		A6A4AB5F21DFF94A00F55B5E /* AlgorithmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlgorithmViewController.swift; sourceTree = "<group>"; };
+		A6A4AB6121DFFA9D00F55B5E /* ArtCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
+		A6A4AB6221DFFA9F00F55B5E /* DrawingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 		A6A4AB4F21DFF7AF00F55B5E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A6A4AB6121DFFA9D00F55B5E /* ArtCell.swift */,
+				A6A4AB6221DFFA9F00F55B5E /* DrawingView.swift */,
 				A6A4AB3F21DFF77600F55B5E /* Main.storyboard */,
 				A6A4AB4421DFF78500F55B5E /* LaunchScreen.storyboard */,
 			);
@@ -212,7 +218,9 @@
 				A6A4AB5E21DFF93700F55B5E /* AbstractionViewController.swift in Sources */,
 				A6A4AB6021DFF94A00F55B5E /* AlgorithmViewController.swift in Sources */,
 				A6A4AB5721DFF8EB00F55B5E /* ArtCollectionViewController.swift in Sources */,
+				A6A4AB6421DFFAA000F55B5E /* DrawingView.swift in Sources */,
 				A6A4AB3C21DFF77600F55B5E /* AppDelegate.swift in Sources */,
+				A6A4AB6321DFFAA000F55B5E /* ArtCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
