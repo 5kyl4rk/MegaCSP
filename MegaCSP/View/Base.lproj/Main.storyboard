@@ -17,33 +17,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="70" translatesAutoresizingMaskIntoConstraints="NO" id="t1t-VE-YPL">
-                                <rect key="frame" x="164" y="163" width="80" height="330"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="70" translatesAutoresizingMaskIntoConstraints="NO" id="t1t-VE-YPL">
+                                <rect key="frame" x="130" y="168" width="115" height="330"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ehl-ZD-vmo">
-                                        <rect key="frame" x="0.0" y="0.0" width="80" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="115" height="30"/>
                                         <state key="normal" title="Algorithm"/>
                                         <connections>
                                             <segue destination="ytV-ws-MaM" kind="show" id="EfU-sT-aJw"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ftL-0j-cSl">
-                                        <rect key="frame" x="0.0" y="100" width="80" height="30"/>
+                                        <rect key="frame" x="0.0" y="100" width="115" height="30"/>
                                         <state key="normal" title="Abstraction"/>
                                         <connections>
                                             <segue destination="WO1-rF-CKI" kind="show" id="yr0-z1-jrB"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wrq-f3-aSj">
-                                        <rect key="frame" x="0.0" y="200" width="80" height="30"/>
+                                        <rect key="frame" x="0.0" y="200" width="115" height="30"/>
                                         <state key="normal" title="Data"/>
                                         <connections>
                                             <segue destination="YbU-sR-5U4" kind="show" id="cEm-gt-e06"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KDi-6X-wtr">
-                                        <rect key="frame" x="0.0" y="300" width="80" height="30"/>
+                                        <rect key="frame" x="0.0" y="300" width="115" height="30"/>
                                         <state key="normal" title="Creativity"/>
                                         <connections>
                                             <segue destination="6mJ-HZ-MRk" kind="show" id="Ecf-fD-J5t"/>
@@ -53,6 +52,10 @@
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="t1t-VE-YPL" secondAttribute="trailing" constant="130" id="4OK-Sz-KCB"/>
+                            <constraint firstItem="t1t-VE-YPL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="130" id="grA-EZ-VFE"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
