@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A6A22FAF21E5286000031EAA /* BucketItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A22FAE21E5285C00031EAA /* BucketItem.swift */; };
 		A6A4AB3C21DFF77600F55B5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A4AB3B21DFF77600F55B5E /* AppDelegate.swift */; };
 		A6A4AB4121DFF77600F55B5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6A4AB3F21DFF77600F55B5E /* Main.storyboard */; };
 		A6A4AB4321DFF78400F55B5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6A4AB4221DFF78400F55B5E /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A6A22FAE21E5285C00031EAA /* BucketItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BucketItem.swift; sourceTree = "<group>"; };
 		A6A4AB3821DFF77600F55B5E /* MegaCSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MegaCSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6A4AB3B21DFF77600F55B5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6A4AB4021DFF77600F55B5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A6A22FAD21E5281500031EAA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A6A22FAE21E5285C00031EAA /* BucketItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		A6A4AB2F21DFF77600F55B5E = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +78,7 @@
 		A6A4AB3A21DFF77600F55B5E /* MegaCSP */ = {
 			isa = PBXGroup;
 			children = (
+				A6A22FAD21E5281500031EAA /* Model */,
 				A6A4AB4D21DFF79400F55B5E /* Resources */,
 				A6A4AB4E21DFF7A000F55B5E /* Controller */,
 				A6A4AB4F21DFF7AF00F55B5E /* View */,
@@ -220,6 +231,7 @@
 				A6A4AB5721DFF8EB00F55B5E /* ArtCollectionViewController.swift in Sources */,
 				A6A4AB6421DFFAA000F55B5E /* DrawingView.swift in Sources */,
 				A6A4AB3C21DFF77600F55B5E /* AppDelegate.swift in Sources */,
+				A6A22FAF21E5286000031EAA /* BucketItem.swift in Sources */,
 				A6A4AB6321DFFAA000F55B5E /* ArtCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
