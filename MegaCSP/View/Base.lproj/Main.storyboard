@@ -211,7 +211,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" alignment="center" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="jRA-GM-eqd">
-                                <rect key="frame" x="50" y="70" width="275" height="447"/>
+                                <rect key="frame" x="50" y="70" width="275" height="397"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swift" translatesAutoresizingMaskIntoConstraints="NO" id="OGL-Hw-AJo">
                                         <rect key="frame" x="0.0" y="0.0" width="275" height="275"/>
@@ -220,7 +220,7 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eGy-UN-X6O">
-                                        <rect key="frame" x="0.0" y="325" width="275" height="122"/>
+                                        <rect key="frame" x="0.0" y="325" width="275" height="72"/>
                                         <string key="text">Swift is more abstract than Machine code as things are done through type English words that make some sense (while() means to repeat while the statement is true).  It’s less abstract than English.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -258,7 +258,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" alignment="center" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="frC-LB-jci">
-                                <rect key="frame" x="50" y="70" width="275" height="447"/>
+                                <rect key="frame" x="50" y="70" width="275" height="397"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blockCode" translatesAutoresizingMaskIntoConstraints="NO" id="Wo2-fq-RMV">
                                         <rect key="frame" x="0.0" y="0.0" width="275" height="275"/>
@@ -267,7 +267,7 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ic7-4i-XH0">
-                                        <rect key="frame" x="0.0" y="325" width="275" height="122"/>
+                                        <rect key="frame" x="0.0" y="325" width="275" height="72"/>
                                         <string key="text">Block code is more abstract than programming code because blocks of code are represented as a block that can metaphorically “connect” with other blocks.  It is less abstract than LEGOs.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -309,13 +309,13 @@
                                 <rect key="frame" x="50" y="70.5" width="275" height="406.5"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="byteCode" translatesAutoresizingMaskIntoConstraints="NO" id="BQJ-ko-uDd">
-                                        <rect key="frame" x="3" y="0.0" width="269.5" height="275"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="275" height="275"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="275" id="nUD-XR-t5B"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Byte code is more abstract than binary because byte code is symbolized using hexadecimal values. It is less abstract than Java." textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WOe-ja-QYa">
-                                        <rect key="frame" x="3" y="325" width="269.5" height="81.5"/>
+                                        <rect key="frame" x="0.0" y="325" width="275" height="81.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -353,7 +353,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" alignment="center" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="lYr-Do-b67">
-                                <rect key="frame" x="50" y="70.5" width="275" height="426.5"/>
+                                <rect key="frame" x="50" y="70" width="275" height="397"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="binary" translatesAutoresizingMaskIntoConstraints="NO" id="Eb2-9X-Wie">
                                         <rect key="frame" x="2.5" y="0.0" width="270" height="275"/>
@@ -362,7 +362,7 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ih-Ou-9eK">
-                                        <rect key="frame" x="2.5" y="325" width="270" height="101.5"/>
+                                        <rect key="frame" x="2.5" y="325" width="270" height="72"/>
                                         <string key="text">Binary is more abstract than actual electrical currents because it is symbolized using either 1 (on) or 0 (off).  It is less abstract than hexadecimals.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -404,13 +404,13 @@
                                 <rect key="frame" x="50" y="70" width="275" height="447"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logic-gates" translatesAutoresizingMaskIntoConstraints="NO" id="mvC-H3-21s">
-                                        <rect key="frame" x="8.5" y="0.0" width="258" height="275"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="275" height="275"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="275" id="fLL-fG-aEA"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bq6-UM-rSV">
-                                        <rect key="frame" x="8.5" y="325" width="258" height="122"/>
+                                        <rect key="frame" x="0.0" y="325" width="275" height="122"/>
                                         <string key="text">Logic gate is more abstract than actual wires because the work is done through transistors and can be planned out using symbols (AND, OR, NOT, etc.).  It is less abstract than water valves.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -525,11 +525,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="binary" width="16" height="16"/>
-        <image name="blockCode" width="16" height="16"/>
-        <image name="byteCode" width="16" height="16"/>
-        <image name="logic-gates" width="16" height="16"/>
-        <image name="swift" width="16" height="16"/>
-        <image name="swiftSample" width="16" height="16"/>
+        <image name="binary" width="205" height="361"/>
+        <image name="blockCode" width="369" height="238"/>
+        <image name="byteCode" width="627" height="232"/>
+        <image name="logic-gates" width="518" height="307"/>
+        <image name="swift" width="776" height="314"/>
+        <image name="swiftSample" width="1248" height="1244"/>
     </resources>
 </document>
